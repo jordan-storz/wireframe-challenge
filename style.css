@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 126px;
+  margin-bottom: 19px;
+}
+
+.hero h2 {
+  font-size: 1.2em;
+  margin-bottom: 21px;
+}
+
+.hero p {
+  width: 630px;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding-left: 99px;
+  background: pink;
+}
+
+.product {
+  border: 1.7px solid black;
+  height: 270px;
+  width: 219px;
+}
+
+.product:nth-of-type(2) {
+  margin: 0 9px;
+}
+
+.product-large {
+  width: 355px;
+}
